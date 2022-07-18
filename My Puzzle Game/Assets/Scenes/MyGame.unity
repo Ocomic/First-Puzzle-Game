@@ -2000,6 +2000,7 @@ GameObject:
   - component: {fileID: 751218918}
   - component: {fileID: 751218917}
   - component: {fileID: 751218916}
+  - component: {fileID: 751218920}
   m_Layer: 0
   m_Name: Door
   m_TagString: Door
@@ -2078,13 +2079,26 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 751218915}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -1.5188239, y: 0.926, z: -0.49759513}
+  m_LocalPosition: {x: 5.76, y: -0.49, z: -0.49759513}
   m_LocalScale: {x: 0.17814215, y: 1.0584589, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1859045798}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &751218920
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 751218915}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cb670a7832cc9ef45a34bc0f65c9efdb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  myCam: {fileID: 963194227}
 --- !u!1 &863844960
 GameObject:
   m_ObjectHideFlags: 0
