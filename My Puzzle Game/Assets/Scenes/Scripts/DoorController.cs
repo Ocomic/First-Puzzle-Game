@@ -51,6 +51,7 @@ public class DoorController : MonoBehaviour
         }
 
         mousePos = myCam.ScreenToWorldPoint(mousePos);
-        transform.localPosition = new Vector3(mousePos.x - startXPos, mousePos.y - startYPos, transform.localPosition.z);
+        transform.localPosition = new Vector3(transform.localPosition.x, mousePos.y - startYPos, transform.localPosition.z);
+        
     }
 }
